@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+</head>
+
+<body>
+    <h2>Contact-us</h2>
+    <h3>Name : Abhay Jangir </h3>
+    <ul>
+        <li>Address : Global Institute Of Technology</li>
+        <li>Email-id: <a href="jangirabhay998@gmail.com">jangirabhay998@gmail.com</a></li>
+        <li>Phone : 9660760506 </li>
+    </ul>
+
+    <form class="" action="index.html" method="post" enctype="text/plain">
+        <label for="Mobile number">like this :- 9930432231:-<br>Enter the mobile number : </label>
+        <input type="tel" id="number" name="number" maxlength="10" placeholder="Enter the number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <label>Your Name : </label>
+        <input type="text" name="Your Name" value="" placeholder="Enter the name">
+        <input type="submit" value=" Save "><br>
+        <label for="Start">Start Date : </label>
+        <input type="date" name="Start Date" value="" min="2023-01-01" max="2027-12-31">
+        <br>
+        <hr>
+        <p><strong>Audio Setting : -</strong></p>
+        <div>
+            <form action="#" method="post" enctype="text/plain">
+                <input type="range" name="Volume" id="Volume" min="0" max="100" value="50">
+                <label><strong>Volume</strong></label>
+            </form>
+        </div>
+
+        <div>
+            <form action="" method="" enctype="">
+                <input type="range" name="Volume" id="Volume" min="0" max="100" value="50">
+                <label><strong>Cowbell</strong></label>
+            </form>
+        </div>
+
+        <hr>
+        <fieldset style="width: 240px;">
+            <legend style="margin: auto;">Which Subject is Best</legend>
+            <div>
+                <input type="radio" name="Subject" id="OOPs" value="OOPs">
+                <label for="radio">OOPs</label>
+            </div>
+
+            <div>
+                <input type="radio" name="Subject" id="DSA" value="">
+                <label for="radio">DSA</label>
+            </div>
+
+            <div>
+                <input type="radio" name="Subject" id="CS">
+                <label for="radio">CS</label>
+            </div>
+
+        </fieldset>
+        <hr>
+        <p><strong>For Searching attribute : </strong></p>
+        <label for="Search">Search the Site :</label>
+        <input type="search" name="search" id=" search" placeholder="Search"> <input type="submit" value="Go">
+        <hr>
+        <p><strong>For time attribute :</strong></p>
+        <input type="time" id="meeting-time" name="meeting time" min="12:00" max="24:00" required>
+        <label> Alarm Meeting time </label>
+        <hr>
+        <label for="avatar"> Select your profile picture : </label><br>
+        <input type="file" id="file" name="file" accept="image/png, image/jpeg" />
+
+        <hr>
+        <form class="" action="mailto:jangirabhay998@gmail.com" method="post" enctype="text/plain">
+           <div>
+            <label for="Name">Your Name : </label>
+            <input type="text" name="your name" value="" placeholder="Enter the name">
+           </div>
+
+           <div>
+            <label for="Email-id">Email id : </label>
+            <input type="email" name="your email" value="" placeholder="Enter the email" >
+           </div>
+           <div>
+            <label for="Message">Enter your Message : </label><br>
+            <textarea name="your message" id="message" ></textarea><br>
+            <input type="submit" value="Send">
+           </div>
+        </form>
+
+
+
+
+</html>
